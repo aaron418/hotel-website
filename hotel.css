@@ -11,6 +11,11 @@ body {
 }
 
 /*utility*/
+
+.form-group {
+    margin-bottom: 20px;
+}
+
 .py-1{
     padding: 15px 0;
 }
@@ -175,7 +180,7 @@ showcase {
 #about-info .info-left{
     float: left;
     width: 50%;
-    mini-height: 100%;
+    min-height: 100%;
 }
 #about-info .info-left h1 {
     font-size: 40px;
@@ -215,6 +220,25 @@ showcase {
     margin-right: 20px;
     border-radius: 45%;
     opacity: 0.9;
+}
+/* contact*/
+#contact-form h1{
+    font-size: 40px;
+    line-height: 1.2em;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px
+}
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+
+}
+
+#contact-form textarea {
+    height: 200px;
 }
 
 /*footer*/
